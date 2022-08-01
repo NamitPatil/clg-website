@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+   }
+
+li,a,button{
+    font-family: "montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+   
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    text-align: center;
+    color: red;
+    height: 200px;
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.20s ease 0s;
+}
+.nav__links li a:hover{
+    color: #021419;
+}
+
+section1{
+    height: 40px;
+    width: auto;
+    background-color: red;
+   text-align:justify;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .flex-item-left {
+   
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    padding: 10px;
+    flex: 50%;
+  }
+  .flex-item-top {
+    padding: 10px;
+    flex: 50%;
+  }
+  .flex-item-right {
+    padding: 10px;
+    flex: 50%;
+  }
+  section{
+    height: 400px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+  }
+  section h1{
+    text-align: center;
+    color: rgb(172, 9, 9);
+    text-size-adjust:100px;
+    text-decoration:darksalmon;
+  }
+
+  
